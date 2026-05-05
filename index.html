@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Arpita Biswas | Portfolio</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400&family=DM+Sans:wght@300;400;500;600&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet"/>
+</head>
+<body>
+
+  <!-- CUSTOM CURSOR -->
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-follower" id="cursor-follower"></div>
+
+  <!-- NOISE OVERLAY -->
+  <div class="noise"></div>
+
+  <!-- NAV -->
+  <nav id="navbar">
+    <div class="nav-logo">AB<span class="dot">.</span></div>
+    <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links" id="nav-links">
+      <li><a href="#home"         class="nav-link">Home</a></li>
+      <li><a href="#about"        class="nav-link">About</a></li>
+      <li><a href="#skills"       class="nav-link">Skills</a></li>
+      <li><a href="#projects"     class="nav-link">Projects</a></li>
+      <li><a href="#achievements" class="nav-link">Achievements</a></li>
+      <li><a href="#contact"      class="nav-link">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- ===== HOME ===== -->
+  <section id="home" class="section hero">
+    <div class="hero-bg-text" aria-hidden="true">ARPITA</div>
+    <div class="hero-content">
+      <div class="hero-tag reveal">B.Tech CSE · Techno India University · West Bengal</div>
+      <h1 class="hero-title">
+        <span class="line reveal">Arpita</span>
+        <span class="line italic reveal">Biswas</span>
+      </h1>
+      <p class="hero-subtitle reveal">AI &nbsp;·&nbsp; Machine Learning &nbsp;·&nbsp; Data Science &nbsp;·&nbsp; Web</p>
+      <div class="hero-cta reveal">
+        <a href="#projects" class="btn btn-primary">View Projects</a>
+        <a href="#contact"  class="btn btn-outline">Get in Touch</a>
+      </div>
+    </div>
+    <div class="hero-scroll-hint" aria-hidden="true">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+    <div class="hero-stats reveal">
+      <div class="stat">
+        <span class="stat-num" data-target="9.2" data-decimal="1">0</span>
+        <span class="stat-label">CGPA</span>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat">
+        <span class="stat-num" data-target="5" data-decimal="0">0</span>
+        <span class="stat-label">Certifications</span>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat">
+        <span class="stat-num" data-target="85" data-decimal="0">0</span>
+        <span class="stat-label">% Model Accuracy</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ABOUT ===== -->
+  <section id="about" class="section about">
+    <div class="section-label">01 — About</div>
+    <div class="about-grid">
+      <div class="about-left reveal">
+        <h2 class="section-title">Crafting Intelligence,<br/><em>One Model at a Time</em></h2>
+        <p class="about-body">
+          Third-year B.Tech Computer Science student specialising in Data Science,
+          Artificial Intelligence, and Machine Learning. I build intelligent systems
+          that transform raw data into meaningful, real-world impact.
+        </p>
+        <p class="about-body">
+          With a CGPA of 9.2 and hands-on IBM internship experience, I bridge theoretical
+          foundations — DBMS, Computer Networks, DSA — with modern ML pipelines, from
+          exploratory data analysis all the way to production-ready Streamlit applications.
+        </p>
+        <div class="about-edu">
+          <div class="edu-item reveal">
+            <span class="edu-year">2023 – Now</span>
+            <div>
+              <strong>B.Tech in CSE</strong>
+              <p>Techno India University, Kolkata &nbsp;·&nbsp; CGPA: 9.2</p>
+            </div>
+          </div>
+          <div class="edu-item reveal">
+            <span class="edu-year">2023</span>
+            <div>
+              <strong>ISC – Class XII</strong>
+              <p>Krishnanagar Academy School &nbsp;·&nbsp; 93.75%</p>
+            </div>
+          </div>
+          <div class="edu-item reveal">
+            <span class="edu-year">2021</span>
+            <div>
+              <strong>ICSE – Class X</strong>
+              <p>Krishnanagar Academy School &nbsp;·&nbsp; 96.8%</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="about-right reveal">
+        <div class="about-card-wrap">
+          <div class="about-card">
+            <div class="card-chips">
+              <div class="card-chip">ML Engineer</div>
+              <div class="card-chip">Data Scientist</div>
+              <div class="card-chip">Web Developer</div>
+            </div>
+            <div class="about-info-grid">
+              <div><label>Location</label><span>Kolkata, WB</span></div>
+              <div><label>Degree</label><span>B.Tech CSE</span></div>
+              <div><label>Email</label><span>arpita23b@gmail.com</span></div>
+              <div><label>Phone</label><span>+91 9064976411</span></div>
+            </div>
+            <div class="languages-row">
+              <span>English</span>
+              <span>Bengali</span>
+              <span>Hindi</span>
+            </div>
+          </div>
+          <div class="about-deco-circle" aria-hidden="true"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SKILLS ===== -->
+  <section id="skills" class="section skills">
+    <div class="section-label">02 — Skills</div>
+    <h2 class="section-title reveal">Technical Arsenal</h2>
+
+    <div class="skills-categories">
+      <div class="skill-category reveal">
+        <h3>Programming Languages</h3>
+        <div class="skill-tags">
+          <span class="tag">Python</span>
+          <span class="tag">Java</span>
+          <span class="tag">SQL</span>
+          <span class="tag">HTML</span>
+          <span class="tag">C</span>
+        </div>
+      </div>
+      <div class="skill-category reveal">
+        <h3>Frameworks & Libraries</h3>
+        <div class="skill-tags">
+          <span class="tag">Pandas</span>
+          <span class="tag">NumPy</span>
+          <span class="tag">Matplotlib</span>
+          <span class="tag">Scikit-learn</span>
+          <span class="tag">Seaborn</span>
+          <span class="tag">Streamlit</span>
+          <span class="tag">TensorFlow</span>
+        </div>
+      </div>
+      <div class="skill-category reveal">
+        <h3>Tools & Platforms</h3>
+        <div class="skill-tags">
+          <span class="tag">Git</span>
+          <span class="tag">MySQL</span>
+          <span class="tag">VS Code</span>
+        </div>
+      </div>
+      <div class="skill-category reveal">
+        <h3>Core Concepts</h3>
+        <div class="skill-tags">
+          <span class="tag">DSA</span>
+          <span class="tag">DBMS</span>
+          <span class="tag">Computer Networks</span>
+          <span class="tag">Machine Learning</span>
+          <span class="tag">Deep Learning</span>
+          <span class="tag">EDA</span>
+          <span class="tag">Prompt Engineering</span>
+        </div>
+      </div>
+      <div class="skill-category reveal">
+        <h3>Soft Skills</h3>
+        <div class="skill-tags">
+          <span class="tag soft">Leadership</span>
+          <span class="tag soft">Communication</span>
+          <span class="tag soft">Team Management</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="skill-bars reveal">
+      <div class="bar-item">
+        <div class="bar-label"><span>Python / Machine Learning</span><span class="bar-pct">90%</span></div>
+        <div class="bar-track"><div class="bar-fill" data-width="90"></div></div>
+      </div>
+      <div class="bar-item">
+        <div class="bar-label"><span>Data Analysis / EDA</span><span class="bar-pct">85%</span></div>
+        <div class="bar-track"><div class="bar-fill" data-width="85"></div></div>
+      </div>
+      <div class="bar-item">
+        <div class="bar-label"><span>Deep Learning / TensorFlow</span><span class="bar-pct">75%</span></div>
+        <div class="bar-track"><div class="bar-fill" data-width="75"></div></div>
+      </div>
+      <div class="bar-item">
+        <div class="bar-label"><span>Web Technologies (HTML/CSS/JS)</span><span class="bar-pct">70%</span></div>
+        <div class="bar-track"><div class="bar-fill" data-width="70"></div></div>
+      </div>
+      <div class="bar-item">
+        <div class="bar-label"><span>SQL / DBMS</span><span class="bar-pct">78%</span></div>
+        <div class="bar-track"><div class="bar-fill" data-width="78"></div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PROJECTS ===== -->
+  <section id="projects" class="section projects">
+    <div class="section-label">03 — Projects</div>
+    <h2 class="section-title reveal">Selected Work</h2>
+
+    <div class="projects-grid">
+
+      <article class="project-card reveal">
+        <div class="project-number" aria-hidden="true">01</div>
+        <div class="project-body">
+          <h3>Heart Disease Prediction System</h3>
+          <p>
+            A Streamlit web application for real-time heart disease risk prediction using Logistic Regression,
+            achieving 85% classification accuracy. Features interactive visualisations, feature importance
+            analysis, and a user-friendly interface designed for healthcare professionals.
+          </p>
+          <div class="project-tech">
+            <span>Python</span><span>Scikit-learn</span><span>Streamlit</span>
+            <span>Pandas</span><span>Matplotlib</span><span>Seaborn</span>
+          </div>
+          <div class="project-metrics">
+            <div class="metric"><span class="m-val">85%</span><span class="m-label">Accuracy</span></div>
+            <div class="metric"><span class="m-val">Real-time</span><span class="m-label">Predictions</span></div>
+          </div>
+          <a href="https://github.com/kituburi-sketch" target="_blank" rel="noopener noreferrer" class="project-link">GitHub →</a>
+        </div>
+      </article>
+
+      <article class="project-card reveal">
+        <div class="project-number" aria-hidden="true">02</div>
+        <div class="project-body">
+          <h3>HealthBox – MediGem AI</h3>
+          <p>
+            An AI-powered health assistant platform offering medical guidance, symptom analysis, and
+            personalised health insights through an interactive web interface. Integrates AI capabilities
+            to improve health literacy and support data-driven healthcare decision-making.
+          </p>
+          <div class="project-tech">
+            <span>AI</span><span>Web Interface</span><span>Healthcare</span><span>NLP</span>
+          </div>
+          <div class="project-metrics">
+            <div class="metric"><span class="m-val">AI</span><span class="m-label">Powered</span></div>
+            <div class="metric"><span class="m-val">Live</span><span class="m-label">Demo</span></div>
+          </div>
+          <a href="https://github.com/kituburi-sketch" target="_blank" rel="noopener noreferrer" class="project-link">Live Demo →</a>
+        </div>
+      </article>
+
+      <article class="project-card reveal featured">
+        <div class="project-number" aria-hidden="true">03</div>
+        <div class="project-body">
+          <h3>IBM EDA – Movies &amp; TV Shows Dataset</h3>
+          <p>
+            End-to-end Exploratory Data Analysis on a Kaggle dataset during the IBM Virtual Internship.
+            Applied advanced feature engineering to reach 85% model accuracy. Developed visualisations
+            and statistical insights; recognised as a <strong>top performer</strong> by IBM panel of judges.
+          </p>
+          <div class="project-tech">
+            <span>Python</span><span>EDA</span><span>Pandas</span><span>Seaborn</span><span>TensorFlow</span>
+          </div>
+          <div class="project-metrics">
+            <div class="metric"><span class="m-val">85%</span><span class="m-label">Accuracy</span></div>
+            <div class="metric"><span class="m-val">Top</span><span class="m-label">Performer</span></div>
+          </div>
+          <a href="https://github.com/kituburi-sketch/EDA-ANALYSIS-ON-NETFLIX-MOVIES-TV-SHOWS-DATASET" target="_blank" rel="noopener noreferrer" class="project-link">IBM Internship →</a>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- ===== ACHIEVEMENTS ===== -->
+  <section id="achievements" class="section achievements">
+    <div class="section-label">04 — Achievements</div>
+    <h2 class="section-title reveal">Certifications &amp;<br/><em>Experience</em></h2>
+
+    <div class="timeline">
+
+      <div class="timeline-item reveal">
+        <div class="tl-dot"></div>
+        <div class="tl-date">Jan 2026</div>
+        <div class="tl-content">
+          <div class="tl-badge">IBM Learning</div>
+          <h4>Virtual Internship – ML &amp; AI</h4>
+          <p>Project Based Experiential Learning covering Machine Learning with Python, Deep Learning with TensorFlow, and Prompt Engineering. Recognised as a <strong>top performer</strong> by the IBM panel of judges.</p>
+        </div>
+      </div>
+
+      <div class="timeline-item reveal">
+        <div class="tl-dot"></div>
+        <div class="tl-date">Jan 2026</div>
+        <div class="tl-content">
+          <div class="tl-badge">IBM Learning</div>
+          <h4>Machine Learning with Python (ML0101EN)</h4>
+          <p>Hands-on ML fundamentals, model building, and evaluation using Scikit-learn and Python pipelines.</p>
+        </div>
+      </div>
+
+      <div class="timeline-item reveal">
+        <div class="tl-dot"></div>
+        <div class="tl-date">Jan 2026</div>
+        <div class="tl-content">
+          <div class="tl-badge">IBM Learning</div>
+          <h4>Deep Learning with TensorFlow (ML0120EN)</h4>
+          <p>Neural network architecture, model training, and deployment using TensorFlow frameworks.</p>
+        </div>
+      </div>
+
+      <div class="timeline-item reveal">
+        <div class="tl-dot"></div>
+        <div class="tl-date">Jan 2026</div>
+        <div class="tl-content">
+          <div class="tl-badge">IBM Learning</div>
+          <h4>Prompt Engineering for Everyone (AI0117EN)</h4>
+          <p>Principles of effective prompt design for large language models and generative AI systems.</p>
+        </div>
+      </div>
+
+      <div class="timeline-item reveal">
+        <div class="tl-dot"></div>
+        <div class="tl-date">Nov 2025</div>
+        <div class="tl-content">
+          <div class="tl-badge tl-badge-alt">Techno Billion AI</div>
+          <h4>Python for Data Science – Virtual Internship</h4>
+          <p>Grade A+ &nbsp;·&nbsp; Cert ID: e1d19458-019e-40ae-b5b8-67373666da5d</p>
+        </div>
+      </div>
+
+      <div class="timeline-item reveal">
+        <div class="tl-dot"></div>
+        <div class="tl-date">May 2025</div>
+        <div class="tl-content">
+          <div class="tl-badge tl-badge-alt">e1133</div>
+          <h4>Professional Development Certificate</h4>
+          <p>"It's not just what you know – It's how you SHOW it" — Connect Session</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section id="contact" class="section contact">
+    <div class="section-label">05 — Contact</div>
+    <h2 class="section-title reveal">Let's Build<br/><em>Something Together</em></h2>
+
+    <div class="contact-grid">
+      <div class="contact-info reveal">
+        <div class="contact-item">
+          <div class="ci-icon">✉</div>
+          <div>
+            <label>Email</label>
+            <a href="mailto:arpita23b@gmail.com">arpita23b@gmail.com</a>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="ci-icon">☎</div>
+          <div>
+            <label>Phone</label>
+            <a href="tel:+919064976411">+91 9064976411</a>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="ci-icon">in</div>
+          <div>
+            <label>LinkedIn</label>
+            <a href="https://www.linkedin.com/in/arpita-biswas-17bb28288" target="_blank" rel="noopener noreferrer">linkedin.com/in/arpita-biswas-17bb28288</a>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="ci-icon">&lt;/&gt;</div>
+          <div>
+            <label>GitHub</label>
+            <a href="https://github.com/kituburi-sketch" target="_blank" rel="noopener noreferrer">github.com/kituburi-sketch</a>
+          </div>
+        </div>
+      </div>
+
+      <form class="contact-form reveal" id="contact-form" novalidate>
+        <div class="form-group">
+          <input type="text"  id="cf-name"    placeholder=" " required autocomplete="name"/>
+          <label for="cf-name">Your Name</label>
+          <span class="form-error" id="err-name"></span>
+        </div>
+        <div class="form-group">
+          <input type="email" id="cf-email"   placeholder=" " required autocomplete="email"/>
+          <label for="cf-email">Email Address</label>
+          <span class="form-error" id="err-email"></span>
+        </div>
+        <div class="form-group">
+          <input type="text"  id="cf-subject" placeholder=" " required/>
+          <label for="cf-subject">Subject</label>
+          <span class="form-error" id="err-subject"></span>
+        </div>
+        <div class="form-group">
+          <textarea id="cf-message" rows="5" placeholder=" " required></textarea>
+          <label for="cf-message">Message</label>
+          <span class="form-error" id="err-message"></span>
+        </div>
+        <button type="submit" class="btn btn-primary btn-full">
+          <span class="btn-text">Send Message</span>
+          <span class="btn-icon">→</span>
+        </button>
+        <div class="form-success" id="form-success">✓ Message sent! I'll get back to you soon.</div>
+      </form>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-logo">AB<span class="dot">.</span></div>
+      <p>Arpita Biswas &copy; 2025 &nbsp;·&nbsp; B.Tech CSE &nbsp;·&nbsp; Techno India University</p>
+      <p class="footer-sub">Built with HTML · CSS · JavaScript</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
